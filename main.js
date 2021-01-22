@@ -1,9 +1,9 @@
-//PROMPT
+//PROMPT - OPCION 1
 let dato = prompt("Por favor escriba su nombre");
-saludar("Hola, ¿como estás?");
-saludar(dato);
-despedir("Adios.")
-cerrar("Programa terminado")
+console.log("OPCION 1")
+saludar("Hola, ¿como estás, " +dato+ "?");
+despedir("Adios " + dato + ".")
+cerrar("Programa terminado.")
 
 function saludar(p1){
 	console.log(p1);
